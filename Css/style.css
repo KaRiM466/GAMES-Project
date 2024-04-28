@@ -1,0 +1,325 @@
+.navbar {
+    background-image: url(../images/banner-bg.png);
+    position: relative;
+    max-width: 100%;
+}
+
+.navbar .logo {
+    margin: 10px 20px;
+}
+
+.navbar .toggle {
+    margin: 10px 20px;
+    cursor: pointer;
+}
+
+.navbar .ul-nav {
+    list-style: none;
+    position: absolute;
+    left: 0;
+    top: 60px;
+    background-image: url(../images/banner-bg.png);
+    width: 100%;
+}
+
+.navbar .ul-toggle {
+    display: none;
+}
+
+.navbar .ul-nav .li-nav {
+    padding: 5px;
+}
+
+.navbar .ul-nav .li-nav a {
+    text-decoration: none;
+    color: white;
+    transition: all .7s ease;
+}
+
+.navbar .ul-nav .li-nav a:hover {
+    color: rgb(247, 68, 68);
+}
+
+.navbar .search {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid white;
+    margin-bottom: 20px;
+    background-color: transparent;
+    color: white;
+}
+
+
+/*  all Games   */
+
+.all-games {
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.caption {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.caption img {
+    position: relative;
+    bottom: 8px;
+}
+
+.caption span {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.caption p {
+    font-weight: bold;
+}
+
+.all-games .row .all-cards .img-1 {
+    width: 250px;
+    height: 400px;
+}
+
+.all-games .row .all-cards .img-2 {
+    width: 250px;
+    height: 350px;
+}
+
+.all-games .row .all-cards .img-3 {
+    width: 250px;
+    height: 300px;
+}
+
+.all-games .row .all-cards .img-4 {
+    width: 250px;
+    height: 250px;
+}
+
+.all-games .row .all-cards .card-info {
+    background-color: black;
+    text-align: center;
+    width: 250px;
+    padding: 25px;
+    color: white;
+    border-end-end-radius: 30px;
+    border-end-start-radius: 30px;
+}
+
+.all-games .row .all-cards .card-info .num {
+    position: relative;
+    bottom: 37px;
+    font-weight: bolder;
+    border: 3px solid rgb(247, 68, 68);
+    border-radius: 50%;
+    background-color: black;
+    padding: 10px;
+}
+
+.all-cards button {
+    margin-top: 20px;
+    padding: 10px 35px;
+    background-color: black;
+    color: white;
+    border: 1px solid rgb(247, 68, 68);
+    border-radius: 30px;
+    position: relative;
+    left: 23%;
+    transition: all 0.7s ease;
+}
+
+.all-cards button:hover {
+    background-color: rgb(247, 68, 68);
+}
+
+.all-cards .active {
+    background-color: rgb(247, 68, 68);
+}
+
+
+/*     Ho to play    */
+
+.how-to-play {
+    background-color: black;
+    color: white;
+    padding: 50px;
+    margin-bottom: 50px;
+}
+
+.how-to-play .container .row .card-img {
+    position: relative;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 255px;
+    height: 150px;
+    margin-left: 23px;
+}
+
+.how-to-play .container .row .card-img img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.how-to-play .container .row .card-img h4 {
+    position: absolute;
+    top: 75%;
+    left: 25%;
+}
+
+.how-to-play .container button {
+    position: relative;
+    left: 44%;
+    margin-top: 50px;
+    padding: 10px 35px;
+    background-color: black;
+    color: white;
+    border: 1px solid rgb(247, 68, 68);
+    border-radius: 30px;
+    transition: all .7s ease;
+}
+
+.how-to-play .container button:hover {
+    background-color: rgb(247, 68, 68);
+}
+
+
+/*    footer */
+
+.footer {
+    background-color: black;
+    padding: 50px 0 0 0;
+    margin-top: 50px;
+}
+
+.footer .container .input {
+    position: relative;
+}
+
+.footer .container .input input {
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    background-color: transparent;
+    outline: none;
+    width: 40%;
+    position: absolute;
+    transform: translateX(75%);
+}
+
+.footer .container .input span {
+    position: relative;
+    left: 62%;
+    font-weight: bold;
+    color: white;
+}
+
+.footer .container .icon {
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 20px;
+    color: white;
+    margin: 20px 0;
+}
+
+.footer .container .row {
+    position: relative;
+    left: 80px;
+    margin: 40px 0;
+}
+
+.footer .container .row .col-4 a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer .container .row .col-4 a i {
+    letter-spacing: 10px;
+    font-size: 20px;
+}
+
+.footer .container .row .col-4 a span {
+    font-size: 20px;
+}
+
+.footer .container .line {
+    position: relative;
+}
+
+.footer .container .line::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 40%;
+    width: 150px;
+    height: 1px;
+    background-color: white;
+    margin: 10px 0 0 0;
+}
+
+.footer .container p {
+    margin-top: 80px;
+    text-align: center;
+}
+
+@media screen and (min-width: 0px) and (max-width: 400px) {
+    /*      all games    */
+    .all-games {
+        text-align: center;
+    }
+    .all-games .row .all-cards {
+        margin-top: 30px;
+    }
+    .all-games .row .all-cards .img-1,
+    .all-games .row .all-cards .img-2,
+    .all-games .row .all-cards .img-3,
+    .all-games .row .all-cards .img-4 {
+        height: 300px;
+    }
+    .all-games .row .all-cards .card-info {
+        position: relative;
+        left: 14.4%;
+    }
+    .all-games .row .all-cards button {
+        position: relative;
+        left: 0;
+    }
+    /*      How To Play    */
+    .how-to-play .container .caption p {
+        font-size: smaller;
+    }
+    .how-to-play .container .row .card-img {
+        margin-top: 30px;
+    }
+    .how-to-play .container button {
+        position: relative;
+        left: 25%;
+    }
+    /*      footer    */
+    .footer .container .input span {
+        position: relative;
+        left: 38%;
+        top: 55px;
+    }
+    .footer .container .icon {
+        margin-top: 21%;
+    }
+    .footer .row {
+        display: block;
+    }
+    .footer .row .col-4 {
+        margin-top: 20px;
+    }
+    .footer .line {
+        position: relative;
+    }
+    .footer .line::after {
+        content: " ";
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: red;
+    }
+    .footer p {}
+}
